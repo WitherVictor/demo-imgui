@@ -33,10 +33,8 @@ int main() {
         ImGui::NewFrame();
 
         // 创建 GUI 界面
-        ImGui::Begin("Hello World Window");
-        ImGui::Text("Hello, World!");
-        ImGui::End();
-
+        ImGui::ShowDemoWindow();
+        
         // 渲染
         ImGui::Render();
         int display_w, display_h;
